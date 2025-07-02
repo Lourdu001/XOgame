@@ -1,0 +1,226 @@
+.fullscreencss{
+  width: 100%;
+  height: 100vh;
+}
+.xoselectioncontainer{
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color:antiquewhite;
+}
+.xcontainer,
+.ocontainer{
+  border-radius: 5px;
+padding: 8px;
+margin: 10px;
+background-color:  rgb(87, 3, 3);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+color: aliceblue;
+}
+.windisplaycss{
+  margin-left: 10px;
+  border-radius: 5px;
+  height: 19px;
+  width: 50px;
+  color: rgb(87, 3, 3);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+.xoboxcontainer{
+  padding-top: 50px;
+  height: 80%;
+  width: 100%;
+    position: relative;
+
+}
+.row1container{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+}
+.xosingleboxcontainer{
+  height: 125px;
+  cursor: pointer;
+  width: 125px;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: rgb(87, 3, 3);
+  color: antiquewhite;
+  display: flex;
+justify-content: center;
+align-items: center;
+font-size: xx-large;
+}
+.resetcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.restartcss{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  background-color:  rgb(87, 3, 3);
+  color: antiquewhite;
+  width: 100px;
+  padding: 5px;
+  margin-top: 10px;
+}
+.restartcss:hover{
+color: rgb(87, 3, 3);
+background-color: rgb(255, 185, 93);
+}
+
+.line{
+  position: absolute;
+  width: 400px;
+  top: 44%;
+}
+.line456{
+  position: absolute;
+  width: 400px;
+  top: 44%;
+}
+.line789{
+  position: absolute;
+  width: 400px;
+  top: 44%;
+}
+
+
+.line147{
+    position: absolute;
+  width: 2px;
+  height: 430px;
+  background-color:antiquewhite;
+  left: calc(50% - 135px); 
+  top: 9%;
+  z-index: 5;
+}
+
+
+.line258 {
+  position: absolute;
+  width: 2px; 
+  height: 430px;
+  background-color: rgb(255, 255, 255);
+  left: 50%; 
+  top: 9%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+ .line369 {
+  position: absolute;
+  width: 2px;
+  height: 430px;
+  background-color: antiquewhite;
+  top: 9%;
+  left: calc(50% + 135px); 
+  transform: translateX(-50%);
+  z-index: 5;
+}
+.line357 {
+  position: absolute;
+  width: 560px;
+  height: 2px;
+  background-color: antiquewhite;
+  top: 149%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  transform-origin: center;
+  z-index: 10;
+}
+
+ .line159 {
+  
+  position: absolute;
+  width: 560px;
+  height: 2px;
+  background-color:antiquewhite; 
+  top: 151%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  transform-origin: center;
+  z-index: 10;
+}
+
+@media screen and (max-width:1500px){
+  .xosingleboxcontainer{
+    height: 100px;
+    width: 100px;
+  }
+  .line{
+    width: 320px;
+    top: 43%;
+  }
+    .line456{
+    width: 320px;
+    top: 43%;
+  }
+   .line789{
+    width: 320px;
+  top: 42%;
+  }
+  .line159{
+    width: 465px;
+  }
+  .line147 {
+    left: calc(50% - 110px); 
+    height: 360px;
+  }
+  .line369{
+    left: calc(50% + 110px);
+    height: 360px;
+  }
+  .line357{
+    width: 460px;
+  }
+}
+@media screen and (max-width:500px){
+  .xosingleboxcontainer{
+    height: 70px;
+    width: 70px;
+  }
+.line{
+  width: 230px;
+  top: 40%;
+}
+.line456{
+  width: 230px;
+    top: 42%;
+
+}
+.line789{
+  width: 230px;
+   top: 40%;
+}
+.line159{
+  width: 330px;
+}
+
+ .line147 {
+    left: calc(50% - 80px);
+    height: 270px;
+  }  .line258 { height: 270px; }
+.line369{
+   left: calc(50% + 80px);  
+    height: 270px;
+}
+  .line357, .line159 {
+    width: 330px;
+  }
+}
